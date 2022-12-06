@@ -1,0 +1,32 @@
+.center {
+    text-align: center;
+}
+
+a {
+    color: brown;
+    padding: 8px;
+}
+
+.nav {
+    background-color: cornflowerblue;
+}
+
+.ourProducts {
+    text-align: left;
+}
+
+.review {
+    font-family: cursive;
+}
+
+body {
+    background-color: bisque;
+}
+
+.logo {
+    max-width: 72px;
+}
+
+.productPics {
+    max-width: 175px;
+}
