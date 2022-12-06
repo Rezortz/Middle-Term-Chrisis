@@ -1,3 +1,4 @@
+
 h1 {
     text-align: center;
 }
@@ -19,4 +20,28 @@ button {
 
 body {
     background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    color: brown;
+    padding: 8px;
+}
+
+.nav {
+    background-color: cornflowerblue;
+}
+
+button {
+    color: white;
+    background-color: black;
+    border-radius: 6px;
+}
+
+body {
+    background-color: bisque;
+
 }
