@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+        <title>Ayden and Donovan Industries</title>
+    </head>
+    <body>
+        <audio id="player" loop>
+            <source src="live_forever.mp3" type="audio/mp3">
+        </source></audio>
+        <script>
+            var vAudio = document.getElementById("player");
+            vAudio.volume = 0.3;
+            var hasInit = false;
+            function playMusic()
+            {
+               console.log(vAudio.ended)
+               if(!hasInit)
+               {
+                   hasInit = true;
+                   vAudio.play();
+               }
+            }
+         </script>
+
+        <div id="particles-js"></div>
+        <script type="text/javascript" src="js/jsparticles.js"></script>
+        <script type="text/javascript" src="js/jsapp.js"></script>
+        <p class="ontop"></p>
+        <div onmouseenter="playMusic()"><img src="images/assets-logo.png" width="320" height="273"></div>
+        <div id="animate" class="lower">
+  </div></a>
+    </body>
+    <footer>
+        <p>Project Made By ONLY the two aydens and donovan</p>
+    </footer>
+</html>
